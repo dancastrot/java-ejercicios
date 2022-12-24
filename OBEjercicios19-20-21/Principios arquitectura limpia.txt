@@ -1,0 +1,12 @@
+La arquitectura limpia se caracteriza por estructurar una aplicación o programa según capas, relacionadas de forma contigua, es decir la "capa 1" se relaciona con "capa 2" y así sucesivamente. Se entiende que existe primero una capa encargada de las entidades, otra vinculada a la lógica de negocio, y una capa posterior de controladores o drivers implicados en procesos como la conexión a BBDD.
+
+En términos concretos, la arquitectura limpia se implementa mediante los Principios SOLID, consistentes en:
+-(S) Principio de responsabilidad unica. 
+-(O) Principio de abierto/cerrado.
+-(L) Principio de sustitución de Liskov.
+-(I) Principio de segregación de interfaces.
+-(D) Principio de inversión de dependencia.
+
+Un caso de uso de arquitectura limpia puede ser el diseño de un programa cualquiera, que requiere de una conexión con BBDD. A partir de los requerimientos por parte del cliente, el programa deberá usar MySQL aunque también debe estar preparado para trabajar con PostgreSQL.
+
+Siguiendo principios SOLID, se deberá crear una inferface que considere de forma abstracta el proceso de conexión a BBDD, y desde ahí generar cada clase según cada BBDD, que implemente dicha interface.
