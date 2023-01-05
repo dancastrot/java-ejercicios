@@ -1,0 +1,5 @@
+Maximiliano,Falcon,Uruguayo,Colo-Colo
+Emiliano,Amor,Argentino,Colo-Colo
+Marco,Rojas,Neozelandes,Colo-Colo
+Marcos,Bolados,Chileno,Colo-Colo
+Esteban,Pavez,Chileno,Colo-Colo
